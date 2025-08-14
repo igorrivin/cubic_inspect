@@ -1,0 +1,17 @@
+
+{
+  "type": "object",
+  "properties": {
+    "map": {
+      "type": "object",
+      "properties": {
+        "F0": {"type": "string"},
+        "F1": {"type": "string"},
+        "F2": {"type": "string"},
+        "F3": {"type": "string"}
+      },
+      "required": ["F0","F1","F2","F3"]
+    }
+  },
+  "required": ["map"]
+}
